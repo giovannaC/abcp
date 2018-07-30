@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AGCP</title>
+    <title>ABCP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="plugin/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="plugin/owlcarousel/owl.theme.default.min.css">
@@ -24,7 +24,7 @@
           <div class="top-bar" id="example-menu">
             <div class="top-bar-left">
               <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">AGCP</li>
+                <li class="menu-text">ABCP</li>
                 <li><a href="#">One</a></li>    
                 <li><a href="#">Two</a></li>
                 <li><a href="#">Three</a></li>

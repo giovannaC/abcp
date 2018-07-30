@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AGCP</title>
+    <title>ABCP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="plugin/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="plugin/owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/foundation.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
 </head>
 
 <body>
@@ -21,14 +22,15 @@
             <div class="title-bar-title">Menu</div>
           </div>
 
-          <div class="top-bar" id="example-menu">
+          <div class="top-bar" id="navbar-changes">
             <div class="top-bar-left">
               <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">AGCP</li>
-                <li><a href="#">One</a></li>    
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
+                <li class="menu-text">ABCP</li>
+                <li><a href="#" class="navbar__changes__link">HOME</a></li>   
+                <li><a href="#" class="navbar__changes__link">ABOUT</a></li> 
+                <li><a href="#" class="navbar__changes__link">CONTACTS</a></li>
               </ul>
+              
             </div>
             <div class="top-bar-right">
               <ul class="menu">
@@ -47,7 +49,7 @@
         <div id="owl-changes" class="owl-carousel owl-theme">
             <div class="">
                 <img class="" src="images/logo.jpg">
-            </div> 
+            </div>
             <div class="">
                 <img class="" src="images/logo.jpg">
             </div> 
@@ -66,28 +68,28 @@
   
   <!-- Inicialização de plugins (Owl Carousel e Foundation) -->
 
-  <script src="plugin/jquery/jquery-3.3.1.min.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.min.js"></script>
-    <script src="plugin/owlcarousel/owl.carousel.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+<script src="plugin/jquery/jquery-3.3.1.min.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.min.js"></script>
+<script src="plugin/owlcarousel/owl.carousel.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
 
-        <script>
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                navText: "",
-                dots: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    }
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: "",
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
                 }
-            })
-        </script>   
+            }
+        })
+    </script>   
 
 </body>
 

@@ -1,15 +1,6 @@
-/* Navbar */
+/* Variáveis */
 
-.navbar {
-    background: #e6e6e6;
-
-    &__container {
-        max-width: 1024px;
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-    }
-}
+$title-font: anja_elianenornal, Arial;
 
 /* Hero */
 
@@ -103,8 +94,9 @@
         margin-bottom: 20px;
 
         span {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
+        margin: 10px;
         background:#e6e6e6;
 
         // &::after{
@@ -127,6 +119,59 @@
                 color: #fff;
             }
         }
-    }
-        
+    }       
 }
+
+/* Navbar */
+
+.navbar {
+    background: #fff;
+
+    &__container {
+        max-width: 1024px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Alterações no Navbar do Foundation */
+
+#navbar-changes {
+    background: #fff;
+    padding: 10px;
+
+    .top-bar, ul {
+        background-color: #fff;
+    }
+
+    .menu-text {
+        padding-top: 12px;
+        font-family: $title-font;
+        letter-spacing: 1.5px;   
+        
+    }
+
+
+    .navbar__changes {
+        
+        border: 2px solid #f3f3f3;
+
+        &__link {
+            color:#d3d3d3;
+            font-family: $title-font;
+            letter-spacing: 1.5px;
+            border-top: 2px solid #f2f2f2;
+    
+            &:hover {
+                border-top: 2px solid #ff6600;
+                color: #ff6600;
+                
+            }
+        
+        }
+    }
+}
+
+
+

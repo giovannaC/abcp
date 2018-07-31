@@ -26,15 +26,9 @@
             <div class="top-bar-left">
               <ul class="dropdown menu" data-dropdown-menu>
                 <li class="menu-text">ABCP</li>
-<<<<<<< HEAD
                 <li><a href="#" class="navbar__changes__link">HOME</a></li>   
                 <li><a href="#" class="navbar__changes__link">ABOUT</a></li> 
                 <li><a href="#" class="navbar__changes__link">CONTACTS</a></li>
-=======
-                <li><a href="#">One</a></li>    
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
->>>>>>> ad0347c9a1d1d7dd4c7b1a41f0b53d9d48d3c887
               </ul>
               
             </div>
